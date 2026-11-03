@@ -1,0 +1,23 @@
+{
+  "name": "obsidian-manual-sorting-fixed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unofficial fork of Manual Sorting 3.2.4 fixing duplicate folder moves during drag-and-drop sorting.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airainday/obsidian-manual-sorting-fixed.git"
+  },
+  "scripts": {
+    "build": "python scripts/build_plugin.py",
+    "check": "node --check main.js",
+    "test": "node tests/settings.test.cjs",
+    "test:drag": "node tests/drag-regression.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "acorn": "8.15.0"
+  }
+}

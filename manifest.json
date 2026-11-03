@@ -1,0 +1,10 @@
+{
+  "id": "manual-sorting-fixed",
+  "name": "Manual Sorting Fixed",
+  "version": "1.0.0",
+  "minAppVersion": "1.14.4",
+  "description": "Unofficial fork of Manual Sorting 3.2.4 fixing duplicate folder moves during drag-and-drop sorting.",
+  "author": "airainday (fork), kh4f (original)",
+  "isDesktopOnly": true,
+  "authorUrl": "https://github.com/airainday"
+}
